@@ -52,7 +52,8 @@ const NoteForm = ({ notes, setNotes }) => {
 
       <div className="mb-4">
         <label htmlFor="priority" className="block font-semibold">
-          Priority
+          {" "}
+          m Priority
         </label>
         <select
           name="priority"
